@@ -100,6 +100,7 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveScyther
 	dw .EvolveEevee
 	dw .EvolveMimeJr
+	dw .EvolveQuilava
 	dw .EvolveUrsaring
 	dw .EvolveStantler
 	dw .EvolveDunsparce
@@ -190,6 +191,9 @@ ElmPhoneScript_EvolutionMethodsTable:
 	end
 .EvolveMimeJr:
 	farwritetext ElmPhoneEvoText_MimeJr
+	end
+.EvolveQuilava:
+	farwritetext ElmPhoneEvoText_Quilava
 	end
 .EvolveUrsaring:
 	getitemname MOON_STONE, STRING_BUFFER_4

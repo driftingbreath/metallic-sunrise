@@ -29,6 +29,7 @@ MultipleEvolutions:
 	multi_evo SCYTHER
 	multi_evo EEVEE
 	multi_evo MIME_JR_
+	multi_evo QUILAVA
 	multi_evo URSARING
 	multi_evo STANTLER
 	multi_evo DUNSPARCE, DUDUNSPARCE_TWO_SEGMENT_FORM, EVOLVE_DUNSPARCE

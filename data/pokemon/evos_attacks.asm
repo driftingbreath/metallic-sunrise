@@ -3706,7 +3706,8 @@ CyndaquilEvosAttacks:
 	db -1 ; no more level-up moves
 
 QuilavaEvosAttacks:
-	evo_data EVOLVE_LEVEL, 36, TYPHLOSION
+	evo_data EVOLVE_HOLDING, SPELL_TAG, TR_ANYTIME, TYPHLOSION, HISUIAN_FORM
+	evo_data EVOLVE_LEVEL, 36, TYPHLOSION, PLAIN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER

@@ -391,7 +391,7 @@ ElmPhoneEvoText_SlowpokeGalarian:
 	cont "37, or when it"
 
 	para "gains a level"
-	line "while holding a"
+	line "while holding"
 	cont "a King's Rock."
 	prompt
 
@@ -487,6 +487,16 @@ ElmPhoneEvoText_MimeJr:
 
 	para "I've heard there's"
 	line "one in Ice Path."
+	prompt
+	
+ElmPhoneEvoText_Quilava:
+	text_ram wStringBuffer3
+	line "evolves when it"
+	cont "reaches level 36,"
+
+	para "or when it gains a"
+	line "level while hold-"
+	cont "ing a Spell Tag."
 	prompt
 
 ElmPhoneEvoText_Stantler:
