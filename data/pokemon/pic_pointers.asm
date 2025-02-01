@@ -295,6 +295,7 @@ PokemonPicPointers::
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
+	pics Meltan
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

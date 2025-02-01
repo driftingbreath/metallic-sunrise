@@ -6544,6 +6544,11 @@ AnnihilapeEvosAttacks:
 	db 48, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
 	db 53, OUTRAGE
 	db -1 ; no more level-up moves
+	
+MeltanEvosAttacks:
+	db -1 ; temp. dummied until melmetal is added
+	db 1, SCRATCH ; temp. dummied
+	db -1 ; no more level-up moves
 
 EggEvosAttacks::
 	db -1 ; no more evolutions

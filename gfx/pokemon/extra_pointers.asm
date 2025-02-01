@@ -291,6 +291,7 @@ AnimationExtraPointers:
 	dw FarigirafAnimationExtra
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
+	dw MeltanAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

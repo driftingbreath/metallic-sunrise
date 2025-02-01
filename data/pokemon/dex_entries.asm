@@ -2894,6 +2894,16 @@ AnnihilapePokedexEntry::
 	page "gained power unfe-"
 	next "ttered by its"
 	next "physical body.@"
+	
+SECTION "MeltanPokedexEntry", ROMX
+MeltanPokedexEntry::
+	db "Hex Nut@"
+	db   "It dissolves and"
+	next "eats iron and"
+	next "other metals in"
+	page "the subsoil to"
+	next "fuel its molten"
+	next "metal body.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::

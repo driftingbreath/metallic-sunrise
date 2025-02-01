@@ -240,6 +240,7 @@ OverqwilAnimation:   INCLUDE "gfx/pokemon/overqwil/anim.asm"
 FarigirafAnimation:  INCLUDE "gfx/pokemon/farigiraf/anim.asm"
 ClodsireAnimation:   INCLUDE "gfx/pokemon/clodsire/anim.asm"
 AnnihilapeAnimation: INCLUDE "gfx/pokemon/annihilape/anim.asm"
+MeltanAnimation:     INCLUDE "gfx/pokemon/meltan/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
