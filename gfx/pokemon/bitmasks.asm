@@ -240,6 +240,7 @@ FarigirafBitmasks:  INCLUDE "gfx/pokemon/farigiraf/bitmask.asm"
 ClodsireBitmasks:   INCLUDE "gfx/pokemon/clodsire/bitmask.asm"
 AnnihilapeBitmasks: INCLUDE "gfx/pokemon/annihilape/bitmask.asm"
 MeltanBitmasks:     INCLUDE "gfx/pokemon/meltan/bitmask.asm"
+MelmetalBitmasks:   INCLUDE "gfx/pokemon/melmetal/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

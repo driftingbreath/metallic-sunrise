@@ -296,6 +296,7 @@ MiniIconPointers:
 	mini_icon Clodsire
 	mini_icon Annihilape
 	mini_icon Meltan
+	mini_icon Melmetal
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

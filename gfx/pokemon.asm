@@ -1521,6 +1521,10 @@ SECTION "Meltan Pics", ROMX
 MeltanFrontpic: INCBIN "gfx/pokemon/meltan/front.animated.2bpp.lz"
 MeltanBackpic:  INCBIN "gfx/pokemon/meltan/back.2bpp.lz"
 
+SECTION "Melmetal Pics", ROMX
+MelmetalFrontpic: INCBIN "gfx/pokemon/melmetal/front.animated.2bpp.lz"
+MelmetalBackpic:  INCBIN "gfx/pokemon/melmetal/back.2bpp.lz"
+
 SECTION "SneaselPlain Pics", ROMX
 SneaselPlainFrontpic: INCBIN "gfx/pokemon/sneasel_plain/front.animated.2bpp.lz"
 SneaselPlainBackpic:  INCBIN "gfx/pokemon/sneasel_plain/back.2bpp.lz"

@@ -298,4 +298,5 @@ PokemonCries::
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
 	mon_cry CRY_SLOWKING,    $145,  $022 ; Meltan
+	mon_cry CRY_SLOWKING,    $145,  $022 ; Melmetal - PLACEHOLDER
 	assert_table_length NUM_SPECIES

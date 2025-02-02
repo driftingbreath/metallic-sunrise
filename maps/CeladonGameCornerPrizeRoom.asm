@@ -1,7 +1,7 @@
 DEF CELADONGAMECORNERPRIZEROOM_TM32_COINS EQU 3500
 DEF CELADONGAMECORNERPRIZEROOM_TM06_COINS EQU 5500
 DEF CELADONGAMECORNERPRIZEROOM_TM68_COINS EQU 7500
-DEF CELADONGAMECORNERPRIZEROOM_MR__MIME_COINS EQU 3333
+DEF CELADONGAMECORNERPRIZEROOM_MELTAN_COINS   EQU 3333
 DEF CELADONGAMECORNERPRIZEROOM_EEVEE_COINS    EQU 6666
 DEF CELADONGAMECORNERPRIZEROOM_PORYGON_COINS  EQU 9999
 
@@ -130,26 +130,26 @@ CeladonGameCornerPokemonVendor:
 	loadmenu .MenuDataHeader
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .mr__mime
+	ifequalfwd $1, .meltan
 	ifequalfwd $2, .eevee
 	ifequalfwd $3, .porygon
 	jumpopenedtext CeladonPrizeRoom_ComeAgainText
 
-.mr__mime
-	checkcoins CELADONGAMECORNERPRIZEROOM_MR__MIME_COINS
+.meltan
+	checkcoins CELADONGAMECORNERPRIZEROOM_MELTAN_COINS
 	ifequal $2, CeladonPrizeRoom_notenoughcoins
-	getmonname MR__MIME, $0
+	getmonname MELTAN, $0
 	scall CeladonPrizeRoom_askbuy
 	iffalse_jumpopenedtext CeladonPrizeRoom_ComeAgainText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext CeladonPrizeRoom_HereYouGoText
 	waitbutton
-	givepoke MR__MIME, 10
+	givepoke MELTAN, 10
 	iffalse_jumpopenedtext CeladonPrizeRoom_NotEnoughRoomText
-	setmonval MR__MIME
+	setmonval MELTAN
 	special Special_GameCornerPrizeMonCheckDex
-	takecoins CELADONGAMECORNERPRIZEROOM_MR__MIME_COINS
+	takecoins CELADONGAMECORNERPRIZEROOM_MELTAN_COINS
 	sjump .loop
 
 .eevee
@@ -195,7 +195,7 @@ CeladonGameCornerPokemonVendor:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Mr.Mime    {d:CELADONGAMECORNERPRIZEROOM_MR__MIME_COINS}@"
+	db "Meltan     {d:CELADONGAMECORNERPRIZEROOM_MELTAN_COINS}@"
 	db "Eevee      {d:CELADONGAMECORNERPRIZEROOM_EEVEE_COINS}@"
 	db "Porygon    {d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}@"
 	db "Cancel@"

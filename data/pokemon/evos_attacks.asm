@@ -6546,8 +6546,33 @@ AnnihilapeEvosAttacks:
 	db -1 ; no more level-up moves
 	
 MeltanEvosAttacks:
-	db -1 ; temp. dummied until melmetal is added
-	db 1, SCRATCH ; temp. dummied
+	evo_data EVOLVE_HOLDING, RARE_CANDY, TR_ANYTIME, MELMETAL
+	db -1 ; no more evolutions
+	db 1, THUNDERSHOCK
+	db 1, DEFENSE_CURL
+	db 8, HEADBUTT ; Tail Whip → earlier Headbutt
+	db 16, SCREECH ; Headbutt → stronger Tail Whip effect
+	db 24, THUNDER_WAVE
+	db 32, BARRIER ; Acid Armor → similar move
+	db 40, FLASH_CANNON
+	db -1 ; no more level-up moves
+	
+MelmetalEvosAttacks:
+	db -1 ; no more Evolutions
+	db 1, THUNDERPUNCH ; evolution move
+	db 1, BODY_SLAM
+	db 1, THUNDERSHOCK
+	db 1, DEFENSE_CURL
+	db 1, HEADBUTT
+	db 1, SCREECH
+	db 24, THUNDER_WAVE
+	db 32, BARRIER
+	db 40, FLASH_CANNON
+	db 48, WILD_CHARGE
+	db 56, PROTECT
+	db 64, IRON_HEAD
+	db 72, DYNAMICPUNCH
+	db 80, HYPER_BEAM
 	db -1 ; no more level-up moves
 
 EggEvosAttacks::

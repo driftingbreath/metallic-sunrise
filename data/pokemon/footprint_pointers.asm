@@ -292,6 +292,7 @@ FootprintPointers::
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint
 	dw OnixFootprint ; stole onix's for meltan because it's a blank print anyway
+	dw OnixFootprint ; same for melmetal. lol, lmao
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

@@ -292,6 +292,7 @@ FramesPointers:
 	dw ClodsireFrames
 	dw AnnihilapeFrames
 	dw MeltanFrames
+	dw MelmetalFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

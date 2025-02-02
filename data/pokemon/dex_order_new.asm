@@ -292,4 +292,5 @@ NewPokedexOrder:
 	dp MEW
 	dp CELEBI
 	dp MELTAN
+	dp MELMETAL
 	assert_table_length NUM_POKEMON

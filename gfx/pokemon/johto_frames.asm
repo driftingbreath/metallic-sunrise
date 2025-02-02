@@ -129,6 +129,7 @@ FarigirafFrames:  INCLUDE "gfx/pokemon/farigiraf/frames.asm"
 ClodsireFrames:   INCLUDE "gfx/pokemon/clodsire/frames.asm"
 AnnihilapeFrames: INCLUDE "gfx/pokemon/annihilape/frames.asm"
 MeltanFrames:     INCLUDE "gfx/pokemon/meltan/frames.asm"
+MelmetalFrames:   INCLUDE "gfx/pokemon/melmetal/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

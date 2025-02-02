@@ -296,6 +296,7 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal GRAY, PURPLE ; ANNIHILAPE
 	iconpal GRAY, ORANGE ; MELTAN, may be temp.
+	iconpal GRAY, ORANGE ; MELMETAL, may be temp.
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

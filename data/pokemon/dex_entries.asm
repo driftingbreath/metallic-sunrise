@@ -2899,11 +2899,21 @@ SECTION "MeltanPokedexEntry", ROMX
 MeltanPokedexEntry::
 	db "Hex Nut@"
 	db   "It dissolves and"
-	next "eats iron and"
-	next "other metals in"
-	page "the subsoil to"
-	next "fuel its molten"
-	next "metal body.@"
+	next "absorbs minerals"
+	next "in the subsoil."
+	page "Circulating molten"
+	next "metal in its body"
+	next "generates energy.@"
+	
+SECTION "MelmetalPokedexEntry", ROMX
+MelmetalPokedexEntry::
+	db "Hex Nut@"
+	db   "At the end of its"
+	next "lifespan, its body"
+	next "rusts and splits."
+	page "The leftover metal"
+	next "shards are reborn"
+	next "into Meltan.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::

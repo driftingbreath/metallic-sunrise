@@ -1462,6 +1462,11 @@ MeltanMini::     INCBIN "gfx/minis/meltan.2bpp.lz"
 MeltanMiniMask:: INCBIN "gfx/minis/meltan_mask.1bpp.lz"
 MeltanIcon::     INCBIN "gfx/icons/meltan.2bpp.lz"
 
+SECTION "Melmetal Mini Icon", ROMX
+MelmetalMini::     INCBIN "gfx/minis/melmetal.2bpp.lz"
+MelmetalMiniMask:: INCBIN "gfx/minis/melmetal_mask.1bpp.lz"
+MelmetalIcon::     INCBIN "gfx/icons/melmetal.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

@@ -240,6 +240,7 @@ FarigirafAnimationExtra:  INCLUDE "gfx/pokemon/farigiraf/anim_idle.asm"
 ClodsireAnimationExtra:   INCLUDE "gfx/pokemon/clodsire/anim_idle.asm"
 AnnihilapeAnimationExtra: INCLUDE "gfx/pokemon/annihilape/anim_idle.asm"
 MeltanAnimationExtra:     INCLUDE "gfx/pokemon/meltan/anim_idle.asm"
+MelmetalAnimationExtra:   INCLUDE "gfx/pokemon/melmetal/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

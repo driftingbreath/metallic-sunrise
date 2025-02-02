@@ -150,6 +150,7 @@ AlphabeticalPokedexOrder:
 	dp MARILL
 	dp MAROWAK
 	dp MEGANIUM
+	dp MELMETAL
 	dp MELTAN
 	dp MEOWTH
 	dp METAPOD

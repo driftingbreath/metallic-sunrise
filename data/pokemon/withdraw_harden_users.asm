@@ -36,4 +36,6 @@ HardenUsers:
 	dp GLISCOR
 	dp CURSOLA
 	dp KLEAVOR
+	dp MELTAN
+	dp MELMETAL
 	db 0

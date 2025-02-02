@@ -292,5 +292,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
-	db  1,   30 ; Meltan, temporary
+	db   1, 100 ; Meltan
+	db 255, 255 ; Melmetal
 	assert_table_length NUM_SPECIES

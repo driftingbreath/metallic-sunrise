@@ -293,6 +293,7 @@ PokedexDataPointerTable:
 	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry
 	dba MeltanPokedexEntry
+	dba MelmetalPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

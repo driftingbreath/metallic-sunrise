@@ -296,6 +296,7 @@ PokemonPicPointers::
 	pics Clodsire
 	pics Annihilape
 	pics Meltan
+	pics Melmetal
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
