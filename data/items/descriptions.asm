@@ -1041,8 +1041,10 @@ ArmorSuitDesc:
 	done
 
 AirBalloonDesc:
-	text "Avoids Ground att-"
-	next "acks until popped."
+;	text "Avoids Ground att-"
+;	next "acks until popped."
+	text "Immune to Ground"
+	next "until popped."
 	done
 
 AssaultVestDesc:
